@@ -1,0 +1,44 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<h2>Ürün Stok Takip Bitirme Projesi Hakkınıda</h2>
+<br />
+<p>
+    Bu Bitirme Projesi <strong>Emcet Hazani</strong> 'in Yazılım Uzmanı Kurusu derslerden esinlenerek yapılmıştır.
+    <br />
+    Aşağıdaki tabloda ise yapılan sistem kısaca anlatılmıştır.
+</p>
+<div id="accordion">
+    <div class="card">
+        <div class="card-header">
+            <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                Tanıtım
+            </a>
+        </div>
+        <div id="collapseOne" class="collapse show" data-parent="#accordion">
+            <div class="card-body">
+                <ul>
+                    <li>Proje MVC olarak tasarlanmıştır.</li>
+                    <li>Projede Asp.NET,HTML,CSS,JS,Boostrap kullanılmıştır.</li>
+                    <li>Microsoft SQL Server bağlantılıdır.</li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                Yapılmış Projeler Kaynakları
+            </a>
+        </div>
+        <div id="collapseTwo" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+                Github Profile Kaynak  <a href="https://github.com/AmjedHezeny?tab=repositories" target="_blank">github.com/Amjed Hezeny</a> adresinden bulabilirsiniz.
+            </div>
+        </div>
+    </div>
+</div>
